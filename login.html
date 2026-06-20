@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gridiron Talk - Login</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header class="site-header">
+    <h1>🏈 Gridiron Talk</h1>
+    <p>The Home of Football Discussion</p>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Let's Talk Ball!</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body>
+
+    <div class="container mt-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-5">
+
+                <div class="card shadow">
+
+                    <div class="card-header bg-black text-white text-center">
+                        <h2>🏈 Gridiron Talk Login</h2>
+                    </div>
+
+                    <div class="card-body">
+
+                        <form>
+
+                            <!-- Email -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label">
+                                    Email Address
+                                </label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="Enter your email"
+                                    required
+                                >
+                            </div>
+
+                            <!-- Password -->
+                            <div class="mb-3">
+                                <label for="password" class="form-label">
+                                    Password
+                                </label>
+                                <input
+                                    type="password"
+                                    class="form-control"
+                                    id="password"
+                                    placeholder="Enter your password"
+                                    required
+                                >
+                            </div>
+
+                            <!-- Remember Me -->
+                            <div class="form-check mb-3">
+                                <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    id="rememberMe"
+                                >
+                                <label class="form-check-label" for="rememberMe">
+                                    Remember Me
+                                </label>
+                            </div>
+
+                            <!-- Login Button -->
+                            <button
+                                type="submit"
+                                class="btn btn-secondary w-100"
+                            >
+                                Login
+                            </button>
+
+                        </form>
+
+                        <hr>
+
+                        <p class="text-center">
+                            Don't have an account?
+                            <a href="signup.html">Sign Up</a>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Gridiron Talk Forum</p>
+</footer>
+
+</body>
+</html>
