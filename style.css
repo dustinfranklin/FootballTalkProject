@@ -34,3 +34,52 @@ main {
 html, body {
     height: 100%;
 }
+
+
+.calculator-container {
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+
+    width: 350px;
+
+    text-align: center;
+}
+
+input {
+    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+#result {
+    font-size: 28px;
+
+    font-weight: bold;
+}
