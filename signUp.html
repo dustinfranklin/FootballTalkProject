@@ -40,128 +40,131 @@
     </div>
 </nav>
 
-<body>
+<main class="container mt-5">
+    <body>
 
-    <div class="container mt-5">
+        <div class="container mt-5">
 
-        <div class="row justify-content-center">
+            <div class="row justify-content-center">
 
-            <div class="col-md-6">
+                <div class="col-md-6">
 
-                <div class="card shadow">
+                    <div class="card shadow">
 
-                    <div class="card-header text-center bg-black text-white">
-                        <h2>🏈 Gridiron Talk Sign Up</h2>
-                    </div>
+                        <div class="card-header text-center bg-black text-white">
+                            <h2>🏈 Gridiron Talk Sign Up</h2>
+                        </div>
 
-                    <div class="card-body">
+                        <div class="card-body">
 
-                        <form>
+                            <form>
 
-                            <!-- Username -->
-                            <div class="mb-3">
-                                <label for="username" class="form-label">
-                                    Username
-                                </label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="username"
-                                    placeholder="Enter username"
-                                >
-                            </div>
-
-                            <!-- Email -->
-                            <div class="mb-3">
-                                <label for="email" class="form-label">
-                                    Email
-                                </label>
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    id="email"
-                                    placeholder="Enter email"
-                                >
-                            </div>
-
-                            <!-- Password -->
-                            <div class="mb-3">
-                                <label for="password" class="form-label">
-                                    Password
-                                </label>
-                                <input
-                                    type="password"
-                                    class="form-control"
-                                    id="password"
-                                >
-                            </div>
-
-                            <!-- Radio Buttons -->
-                            <div class="mb-3">
-                                <label class="form-label">
-                                    Favorite Football Level
-                                </label>
-
-                                <div class="form-check">
+                                <!-- Username -->
+                                <div class="mb-3">
+                                    <label for="username" class="form-label">
+                                        Username
+                                    </label>
                                     <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="footballType"
-                                        id="nfl"
+                                        type="text"
+                                        class="form-control"
+                                        id="username"
+                                        placeholder="Enter username"
                                     >
-                                    <label class="form-check-label" for="nfl">
-                                        NFL
+                                </div>
+
+                                <!-- Email -->
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">
+                                        Email
+                                    </label>
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        placeholder="Enter email"
+                                    >
+                                </div>
+
+                                <!-- Password -->
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">
+                                        Password
+                                    </label>
+                                    <input
+                                        type="password"
+                                        class="form-control"
+                                        id="password"
+                                    >
+                                </div>
+
+                                <!-- Radio Buttons -->
+                                <div class="mb-3">
+                                    <label class="form-label">
+                                        Favorite Football Level
+                                    </label>
+
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="footballType"
+                                            id="nfl"
+                                        >
+                                        <label class="form-check-label" for="nfl">
+                                            NFL
+                                        </label>
+                                    </div>
+
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="footballType"
+                                            id="college"
+                                        >
+                                        <label class="form-check-label" for="college">
+                                            College Football
+                                        </label>
+                                    </div>
+
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="footballType"
+                                            id="both"
+                                        >
+                                        <label class="form-check-label" for="both">
+                                            Both
+                                        </label>
+                                    </div>
+
+                                </div>
+
+                                <!-- Checkbox -->
+                                <div class="mb-3 form-check">
+                                    <input
+                                        type="checkbox"
+                                        class="form-check-input"
+                                        id="terms"
+                                    >
+
+                                    <label class="form-check-label" for="terms">
+                                        I agree to the Terms and Conditions
                                     </label>
                                 </div>
 
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="footballType"
-                                        id="college"
-                                    >
-                                    <label class="form-check-label" for="college">
-                                        College Football
-                                    </label>
-                                </div>
-
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="footballType"
-                                        id="both"
-                                    >
-                                    <label class="form-check-label" for="both">
-                                        Both
-                                    </label>
-                                </div>
-
-                            </div>
-
-                            <!-- Checkbox -->
-                            <div class="mb-3 form-check">
-                                <input
-                                    type="checkbox"
-                                    class="form-check-input"
-                                    id="terms"
+                                <!-- Submit -->
+                                <button
+                                    type="submit"
+                                    class="btn btn-secondary w-100"
                                 >
+                                    Create Account
+                                </button>
 
-                                <label class="form-check-label" for="terms">
-                                    I agree to the Terms and Conditions
-                                </label>
-                            </div>
+                            </form>
 
-                            <!-- Submit -->
-                            <button
-                                type="submit"
-                                class="btn btn-secondary w-100"
-                            >
-                                Create Account
-                            </button>
-
-                        </form>
+                        </div>
 
                     </div>
 
@@ -170,8 +173,8 @@
             </div>
 
         </div>
-
-    </div>
+    </body>
+ </main>
 
 <footer class="site-footer">
     <p>&copy; 2026 Gridiron Talk Forum</p>
